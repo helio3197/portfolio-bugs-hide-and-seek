@@ -60,7 +60,7 @@ function openModalFunc() {
   const modalSection = document.getElementById('modal-section');
   const headlineButton = document.createElement('div');
   headlineButton.className = 'headline-button-wrapper';
-  headlineButton.innerHTML = `<h1 class="title-modal">${modalData.projectOne.name}</h1><button type="button" class="close-menu" id="close-modal"></button>`;
+  headlineButton.innerHTML = '<h1 class="title-modal">${modalData.projectOne.name}</h1><button type="button" class="close-menu" id="close-modal"></button>';
   modalSection.appendChild(headlineButton);
   const technologies = document.createElement('ul');
   technologies.className = 'tags tags-modal';
